@@ -1,0 +1,25 @@
+<?php
+// Define a constant variable named "varible" with a specific message.
+define("varible","this is define function varible!");//define() has has a case-insensitive option. 
+// Declare a regular variable named $varible with a different message.
+$varible = "this is normal varible!";
+
+echo varible."<br>";
+
+
+
+
+#don't do $ sign in constant varible.
+
+
+
+// Define a constant variable named "varible2" with a specific message.
+const varible2 = "this is const varible!";//const are always case-sensitive
+// Declare a regular variable named $varible2 with a different message.
+$varible2 = "this is normal varible!";
+
+echo varible2;
+
+?>
+
+ 
